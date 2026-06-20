@@ -355,7 +355,7 @@ See [Helpful Tools & Utilities](#helpful-tools-&-utilities) section for tools to
 
 > Integration with AI and machine learning services.
 
-- [AgentRecall](https://github.com/Goldentrii/AgentRecall) - Persistent, compounding memory for AI agents across sessions. Uses the Intelligent Distance Protocol to surface the most contextually relevant past memories. Five tools: `session_start`, `remember`, `recall`, `check`, `session_end`. `npx agent-recall-mcp`
+- [AgentRecall](https://github.com/Goldentrii/AgentRecall-MCP) - Correction-first persistent memory for AI agents. Logs every correction as a `CorrectionRecord` with severity and precision KPI, compounds across sessions via 5 memory layers (episodic, semantic, procedural, narrative, correction). FSRS-lite decay + Hopfield retrieval. Local markdown, no cloud. `npx agent-recall-mcp`
 - <img src="https://agentset.ai/screenshots/logo.png" height="14"/> [Agentset AI](https://github.com/agentset-ai/mcp-server) -  RAG on your data using MCP protocol
 - <img src="https://cdn.simpleicons.org/openai/00A67E" height="14"/> [OpenAI](https://github.com/pierrebrunelle/mcp-server-openai) - Query OpenAI models directly from Claude using MCP protocol
 - <img src="https://cdn.simpleicons.org/openai/00A67E" height="14"/> [OpenAI Compatible Chat](https://github.com/pyroprompts/any-chat-completions-mcp) - Chat with models from OpenAI-compatible APIs (Perplexity, Groq, xAI, etc.)
